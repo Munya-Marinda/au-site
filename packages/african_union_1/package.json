@@ -1,0 +1,16 @@
+{
+  "name": "african_union_1",
+  "version": "1.0.0",
+  "description": "Frontity package created using the Frontity CLI.",
+  "keywords": [
+    "frontity",
+    "frontity-african_union_1"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "frontity": "^1.17.2",
+    "bootstrap": "^5.3.0",
+    "react-bootstrap": "^2.8.0",
+    "react-icons": "^4.10.1"
+  }
+}

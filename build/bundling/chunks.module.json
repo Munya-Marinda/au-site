@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "24bf161fa5853f5d49bc",
+  "publicPath": "",
+  "outputPath": "C:\\repos\\african-union\\build\\static",
+  "assetsByChunkName": {
+    "african-union": "african-union.module.js"
+  },
+  "assets": [
+    {
+      "name": "african-union.module.js",
+      "size": 40857107,
+      "chunks": [
+        "african-union"
+      ],
+      "chunkNames": [
+        "african-union"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "african-union": {
+      "chunks": [
+        "african-union"
+      ],
+      "assets": [
+        "african-union.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "african-union",
+      "files": [
+        "african-union.module.js"
+      ]
+    }
+  ]
+}
