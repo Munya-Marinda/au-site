@@ -1,7 +1,7 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "24bf161fa5853f5d49bc",
+  "hash": "5d8b640d77b056a015db",
   "publicPath": "",
   "outputPath": "C:\\repos\\african-union\\build\\static",
   "assetsByChunkName": {
@@ -10,7 +10,7 @@
   "assets": [
     {
       "name": "african-union.module.js",
-      "size": 40857107,
+      "size": 41054415,
       "chunks": [
         "african-union"
       ],
@@ -18,7 +18,7 @@
         "african-union"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,

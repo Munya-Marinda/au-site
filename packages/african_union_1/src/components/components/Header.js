@@ -10,7 +10,13 @@ import {
   FaAngleRight,
   FaArrowRight,
 } from "react-icons/fa";
-import { knowledgeHeaderData, stateData } from "../handlers/handleMenu";
+import {
+  knowledgeHeaderData,
+  stateData,
+  NewsAndEventsHeaderData,
+  ResourcesHeaderData,
+  GetInvolvedHeaderData,
+} from "../handlers/handleMenu";
 
 const CustomPrevButton = ({ onClick }) => {
   return (
@@ -28,7 +34,7 @@ const CustomNextButton = ({ onClick }) => {
   );
 };
 
-const Header = ({ state }) => {
+const Header = () => {
   const [stateIndex, setStateIndex] = useState(-1);
   const [countryIndex, setCountryIndex] = useState(-1);
   const [countryData, setCountryData] = useState(null);
@@ -36,6 +42,18 @@ const Header = ({ state }) => {
   const [knowledgeIndex, setKnowledgeIndex] = useState(-1);
   const [knowledgeSubIndex, setKnowledgeSubIndex] = useState(-1);
   const [knowledgeData, setKnowledgeData] = useState(null);
+  //
+  const [newsAndEventsIndex, setNewsAndEventsIndex] = useState(-1);
+  const [newsAndEventsSubIndex, setNewsAndEventsSubIndex] = useState(-1);
+  const [newsAndEventsData, setNewsAndEventsData] = useState(null);
+  //
+  const [resourcesIndex, setResourcesIndex] = useState(-1);
+  const [resourcesSubIndex, setResourcesSubIndex] = useState(-1);
+  const [resourcesData, setResourcesData] = useState(null);
+  //
+  const [getInvolvedIndex, setGetInvolvedIndex] = useState(-1);
+  const [getInvolvedSubIndex, setGetInvolvedSubIndex] = useState(-1);
+  const [getInvolvedData, setGetInvolvedData] = useState(null);
   //
   //
   //
@@ -139,7 +157,7 @@ const Header = ({ state }) => {
       <div className="header_nav_parent_dropdown">
         <div className="dropdown_column_1">
           <ul>
-            {knowledgeData.map((state, index) => {
+            {knowledgeHeaderData.map((state, index) => {
               //
               //
               return (
@@ -178,11 +196,6 @@ const Header = ({ state }) => {
                         setKnowledgeSubIndex(index);
                       }}
                     >
-                      <img
-                        className="dropdown_column_2_flag_img"
-                        src={country.flag}
-                        alt={"Flag of " + country.name}
-                      />
                       {country.name}
                     </li>
                   )
@@ -206,6 +219,228 @@ const Header = ({ state }) => {
               </div>
             </>
           )}
+        </div>
+      </div>
+    );
+  };
+  //
+  //
+  const NewsAndEventsDropdown = () => {
+    return (
+      <div className="header_nav_parent_dropdown">
+        <div className="dropdown_column_1 dropdown_column_div_by_3">
+          <ul>
+            {NewsAndEventsHeaderData.map((state, index) => {
+              //
+              //
+              return (
+                <li
+                  key={index}
+                  onClick={() => {
+                    setNewsAndEventsIndex(index);
+                    setNewsAndEventsSubIndex(-1);
+                    setNewsAndEventsData(null);
+                  }}
+                  className={
+                    index === newsAndEventsIndex ? "dropdown_active_link" : ""
+                  }
+                >
+                  {state.name}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {newsAndEventsIndex !== -1 && (
+              <>
+                {NewsAndEventsHeaderData[newsAndEventsIndex].content.map(
+                  (country, index) => (
+                    <li
+                      className={
+                        index === newsAndEventsSubIndex
+                          ? "dropdown_active_country_link"
+                          : ""
+                      }
+                      key={index}
+                      onClick={() => {
+                        setNewsAndEventsData(country);
+                        setNewsAndEventsSubIndex(index);
+                      }}
+                    >
+                      {country.name}
+                    </li>
+                  )
+                )}
+              </>
+            )}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {newsAndEventsData !== null && newsAndEventsSubIndex !== -1 && (
+              <>
+                {newsAndEventsData.news.map((post, index) => {
+                  return (
+                    <li key={index}>
+                      <Link className={"dropdown_title_link"} link={post.url}>
+                        {post.header}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </>
+            )}
+          </ul>
+        </div>
+      </div>
+    );
+  };
+  //
+  //
+  const ResourcesDropdown = () => {
+    return (
+      <div className="header_nav_parent_dropdown">
+        <div className="dropdown_column_1 dropdown_column_div_by_3">
+          <ul>
+            {ResourcesHeaderData.map((state, index) => {
+              //
+              //
+              return (
+                <li
+                  key={index}
+                  onClick={() => {
+                    setResourcesIndex(index);
+                    setResourcesSubIndex(-1);
+                    setResourcesData(null);
+                  }}
+                  className={
+                    index === resourcesIndex ? "dropdown_active_link" : ""
+                  }
+                >
+                  {state.name}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {resourcesIndex !== -1 && (
+              <>
+                {ResourcesHeaderData[resourcesIndex].content.map(
+                  (country, index) => (
+                    <li
+                      className={
+                        index === resourcesSubIndex
+                          ? "dropdown_active_country_link"
+                          : ""
+                      }
+                      key={index}
+                      onClick={() => {
+                        setResourcesData(country);
+                        setResourcesSubIndex(index);
+                      }}
+                    >
+                      {country.name}
+                    </li>
+                  )
+                )}
+              </>
+            )}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {resourcesData !== null && resourcesSubIndex !== -1 && (
+              <>
+                {resourcesData.news.map((post, index) => {
+                  return (
+                    <li key={index}>
+                      <Link className={"dropdown_title_link"} link={post.url}>
+                        {post.header}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </>
+            )}
+          </ul>
+        </div>
+      </div>
+    );
+  };
+  //
+  //
+  const GetInvolvedDropdown = () => {
+    return (
+      <div className="header_nav_parent_dropdown">
+        <div className="dropdown_column_1 dropdown_column_div_by_3">
+          <ul>
+            {GetInvolvedHeaderData.map((state, index) => {
+              //
+              //
+              return (
+                <li
+                  key={index}
+                  onClick={() => {
+                    setGetInvolvedIndex(index);
+                    setGetInvolvedSubIndex(-1);
+                    setGetInvolvedData(null);
+                  }}
+                  className={
+                    index === getInvolvedIndex ? "dropdown_active_link" : ""
+                  }
+                >
+                  {state.name}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {getInvolvedIndex !== -1 && (
+              <>
+                {GetInvolvedHeaderData[getInvolvedIndex].content.map(
+                  (country, index) => (
+                    <li
+                      className={
+                        index === getInvolvedSubIndex
+                          ? "dropdown_active_country_link"
+                          : ""
+                      }
+                      key={index}
+                      onClick={() => {
+                        setGetInvolvedData(country);
+                        setGetInvolvedSubIndex(index);
+                      }}
+                    >
+                      {country.name}
+                    </li>
+                  )
+                )}
+              </>
+            )}
+          </ul>
+        </div>
+        <div className="dropdown_column_2 dropdown_column_div_by_3">
+          <ul>
+            {getInvolvedData !== null && getInvolvedSubIndex !== -1 && (
+              <>
+                {getInvolvedData.news.map((post, index) => {
+                  return (
+                    <li key={index}>
+                      <Link className={"dropdown_title_link"} link={post.url}>
+                        {post.header}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </>
+            )}
+          </ul>
         </div>
       </div>
     );
@@ -343,21 +578,30 @@ const Header = ({ state }) => {
                 </Link>
                 <MemberStatesDropdown />
               </span>
-              <Link link="#news_and_events" className="">
-                News & Events
-              </Link>
+              <span className="dropdown_link">
+                <Link link="#news_and_events" className="">
+                  News & Events <FaAngleDown />
+                </Link>
+                <NewsAndEventsDropdown />
+              </span>
               <span className="dropdown_link">
                 <Link link="#knowledge" className="">
                   Knowledge <FaAngleDown />
                 </Link>
                 <KnowledgeStatesDropdown />
               </span>
-              <Link link="#resources" className="">
-                Resources
-              </Link>
-              <Link link="#get_involved" className="">
-                Get Involved
-              </Link>
+              <span className="dropdown_link">
+                <Link link="#resources" className="">
+                  Resources <FaAngleDown />
+                </Link>
+                <ResourcesDropdown />
+              </span>
+              <span className="dropdown_link">
+                <Link link="#get-involved" className="">
+                  Get Involved <FaAngleDown />
+                </Link>
+                <GetInvolvedDropdown />
+              </span>
             </div>
           </div>
         </div>
