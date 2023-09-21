@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "@frontity/components/link";
 import { Carousel } from "react-bootstrap";
 import { connect } from "frontity";

@@ -9,11 +9,11 @@ import {
   FaHandshake,
   FaPlay,
 } from "react-icons/fa";
+import { Carousel } from "react-bootstrap";
 import { BiSolidFactory } from "react-icons/bi";
+import { keyResources } from "../handlers/handleMenu";
 import { GiAfrica, GiColumnVase, GiPeaceDove } from "react-icons/gi";
 import { FaBuildingColumns, FaPeopleRobbery } from "react-icons/fa6";
-import { Carousel } from "react-bootstrap";
-import { keyResources } from "../handlers/handleMenu";
 
 //
 //
@@ -122,210 +122,214 @@ const HomePage = ({ state }) => {
             <Link link="#see-all">See All</Link>
           </div>
           <table className="feature_table_1">
-            <tr>
-              <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
-                <div className="feature_cardParent_1">
-                  <div
-                    className="cardParent_vert_long_1_img"
-                    style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      height: "240px",
-                      borderRadius: "10px 10px 0px 0px",
-                    }}
-                  />
-                  <div className="cardParent_vert_long_1_text_parent">
-                    <div>
-                      <span>Economic</span>
+            <tbody>
+              <tr>
+                <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
+                  <div className="feature_cardParent_1">
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        height: "240px",
+                        borderRadius: "10px 10px 0px 0px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>Economic</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "Exploring Africa's Path to Economic Resilience: The
+                        African Union's Initiatives To Empower The People of
+                        Africa" - Discover how the African Union is driving
+                        economic resilience and sustainable growth across the
+                        continent, fostering innovation, growth and
+                        entrepreneurship amongst all groups of people.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 2, 2022
+                      </span>
                     </div>
-                    <p className="home_content_style_2">
-                      "Exploring Africa's Path to Economic Resilience: The
-                      African Union's Initiatives To Empower The People of
-                      Africa" - Discover how the African Union is driving
-                      economic resilience and sustainable growth across the
-                      continent, fostering innovation, growth and
-                      entrepreneurship amongst all groups of people.
-                    </p>
-                    <span>
-                      <FaCalendarAlt />
-                      September 2, 2022
-                    </span>
                   </div>
-                </div>
-              </td>
-              <td colSpan={3}>
-                <div
-                  className="feature_cardParent_1"
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyItems: "flex-start",
-                  }}
-                >
+                </td>
+                <td colSpan={3}>
                   <div
-                    className="cardParent_vert_long_1_img"
+                    className="feature_cardParent_1"
                     style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      width: "180%",
-                      height: "240px",
-                      borderRadius: "10px 0px 0px 10px",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyItems: "flex-start",
                     }}
-                  />
-                  <div className="cardParent_vert_long_1_text_parent">
-                    <div>
-                      <span>Peace</span>
+                  >
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        width: "180%",
+                        height: "240px",
+                        borderRadius: "10px 0px 0px 10px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>Peace</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "Charting a Course for Peace: The African Union's Role
+                        in Conflict Resolution" - Delve into the African Union's
+                        tireless efforts to mediate conflicts, establish
+                        peacekeeping missions, and promote stability in regions
+                        facing adversity.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 5, 2022
+                      </span>
                     </div>
-                    <p className="home_content_style_2">
-                      "Charting a Course for Peace: The African Union's Role in
-                      Conflict Resolution" - Delve into the African Union's
-                      tireless efforts to mediate conflicts, establish
-                      peacekeeping missions, and promote stability in regions
-                      facing adversity.
-                    </p>
-                    <span>
-                      <FaCalendarAlt />
-                      September 5, 2022
-                    </span>
                   </div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div
-                  className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
-                  style={{
-                    minHeight: "350px",
-                  }}
-                >
-                  <div>
-                    <span>Gender Equality</span>
-                  </div>
-                  <p className="home_content_style_2">
-                    "Empowering Women in Africa: The African Union's Gender
-                    Equality Agenda" - Learn about the African Union's
-                    commitment to gender equality, empowering women and girls
-                    through policies and initiatives that drive positive change.
-                  </p>
-                  <span>
-                    <FaCalendarAlt />
-                    September 10, 2022
-                  </span>
-                </div>
-              </td>
-              <td>
-                <div
-                  className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
-                  style={{
-                    minHeight: "350px",
-                  }}
-                >
-                  <div>
-                    <span>Technology</span>
-                  </div>
-                  <p className="home_content_style_2">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
-                  <span>
-                    <FaCalendarAlt />
-                    September 15, 2022
-                  </span>
-                </div>
-              </td>
-              <td rowSpan={2}>
-                <div className="feature_cardParent_1">
+                </td>
+              </tr>
+              <tr>
+                <td>
                   <div
-                    className="cardParent_vert_long_1_img"
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
                     style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      width: "100%",
-                      height: "240px",
-                      borderRadius: "10px 10px 0px 0px",
-                    }}
-                  />
-                  <div
-                    className="cardParent_vert_long_1_text_parent"
-                    style={{
-                      minHeight: "360px",
+                      minHeight: "350px",
                     }}
                   >
                     <div>
-                      <span>Agenda-2063</span>
+                      <span>Gender Equality</span>
                     </div>
                     <p className="home_content_style_2">
-                      "African Union's Agenda 2063: Shaping the Future of the
-                      Continent" - Dive into Agenda 2063, the African Union's
-                      comprehensive plan for transforming Africa into a
-                      thriving, integrated, and self-reliant continent by 2063.
-                      Learn how it's reshaping the future of the continent.
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
                     </p>
                     <span>
                       <FaCalendarAlt />
-                      October 2, 2022
+                      September 10, 2022
                     </span>
                   </div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td colSpan={5}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyItems: "flex-start",
-                  }}
-                  className="feature_cardParent_1"
-                >
+                </td>
+                <td>
                   <div
-                    className="cardParent_vert_long_1_img"
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
                     style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      width: "180%",
-                      height: "240px",
-                      borderRadius: "10px 0px 0px 10px",
+                      minHeight: "350px",
                     }}
-                  />
-                  <div className="cardParent_vert_long_1_text_parent">
+                  >
                     <div>
-                      <span>News</span>
+                      <span>Technology</span>
                     </div>
                     <p className="home_content_style_2">
-                      "African Union's Vision 2063: Shaping Africa's Future" -
-                      Dive into the ambitious Agenda 2063, the African Union's
-                      strategic framework for transforming Africa into a united,
-                      prosperous, and self-reliant continent. Explore its key
-                      goals and the path to achieving them.
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
                     </p>
                     <span>
                       <FaCalendarAlt />
-                      September 25, 2022
+                      September 15, 2022
                     </span>
                   </div>
-                </div>
-              </td>
-            </tr>
+                </td>
+                <td rowSpan={2}>
+                  <div className="feature_cardParent_1">
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        width: "100%",
+                        height: "240px",
+                        borderRadius: "10px 10px 0px 0px",
+                      }}
+                    />
+                    <div
+                      className="cardParent_vert_long_1_text_parent"
+                      style={{
+                        minHeight: "360px",
+                      }}
+                    >
+                      <div>
+                        <span>Agenda-2063</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "African Union's Agenda 2063: Shaping the Future of the
+                        Continent" - Dive into Agenda 2063, the African Union's
+                        comprehensive plan for transforming Africa into a
+                        thriving, integrated, and self-reliant continent by
+                        2063. Learn how it's reshaping the future of the
+                        continent.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        October 2, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colSpan={5}>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyItems: "flex-start",
+                    }}
+                    className="feature_cardParent_1"
+                  >
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        width: "180%",
+                        height: "240px",
+                        borderRadius: "10px 0px 0px 10px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>News</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "African Union's Vision 2063: Shaping Africa's Future" -
+                        Dive into the ambitious Agenda 2063, the African Union's
+                        strategic framework for transforming Africa into a
+                        united, prosperous, and self-reliant continent. Explore
+                        its key goals and the path to achieving them.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 25, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>{" "}
           </table>
         </div>
       </div>
@@ -338,156 +342,159 @@ const HomePage = ({ state }) => {
             <Link link="#see-all">See All</Link>
           </div>
           <table className="feature_table_1">
-            <tr>
-              <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
-                <div className="feature_cardParent_1">
+            <tbody>
+              <tr>
+                <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
+                  <div className="feature_cardParent_1">
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        height: "240px",
+                        borderRadius: "10px 10px 0px 0px",
+                      }}
+                    />
+                    <div
+                      className="cardParent_vert_long_1_text_parent"
+                      style={{ minHeight: "400px" }}
+                    >
+                      <div>
+                        <span>Economic</span>
+                      </div>
+                      <p className="home_content_style_1">
+                        "Exploring Africa's Path to Economic Resilience: The
+                        African Union's Initiatives To Empower The People of
+                        Africa" - Discover how the African Union is driving
+                        economic resilience and sustainable growth across the
+                        continent, fostering innovation, growth and
+                        entrepreneurship amongst all groups of people.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 2, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+
+                <td>
                   <div
-                    className="cardParent_vert_long_1_img"
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
                     style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      height: "240px",
-                      borderRadius: "10px 10px 0px 0px",
+                      minHeight: "380px",
                     }}
-                  />
-                  <div
-                    className="cardParent_vert_long_1_text_parent"
-                    style={{ minHeight: "400px" }}
                   >
                     <div>
-                      <span>Economic</span>
+                      <span>Gender Equality</span>
                     </div>
                     <p className="home_content_style_1">
-                      "Exploring Africa's Path to Economic Resilience: The
-                      African Union's Initiatives To Empower The People of
-                      Africa" - Discover how the African Union is driving
-                      economic resilience and sustainable growth across the
-                      continent, fostering innovation, growth and
-                      entrepreneurship amongst all groups of people.
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
                     </p>
                     <span>
                       <FaCalendarAlt />
-                      September 2, 2022
+                      September 10, 2022
                     </span>
                   </div>
-                </div>
-              </td>
-
-              <td>
-                <div
-                  className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
-                  style={{
-                    minHeight: "380px",
-                  }}
-                >
-                  <div>
-                    <span>Gender Equality</span>
-                  </div>
-                  <p className="home_content_style_1">
-                    "Empowering Women in Africa: The African Union's Gender
-                    Equality Agenda" - Learn about the African Union's
-                    commitment to gender equality, empowering women and girls
-                    through policies and initiatives that drive positive change.
-                  </p>
-                  <span>
-                    <FaCalendarAlt />
-                    September 10, 2022
-                  </span>
-                </div>
-              </td>
-              <td>
-                <div
-                  className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
-                  style={{
-                    minHeight: "380px",
-                  }}
-                >
-                  <div>
-                    <span>Technology</span>
-                  </div>
-                  <p className="home_content_style_1">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
-                  <span>
-                    <FaCalendarAlt />
-                    September 15, 2022
-                  </span>
-                </div>
-              </td>
-              <td>
-                <div
-                  className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
-                  style={{
-                    minHeight: "380px",
-                  }}
-                >
-                  <div>
-                    <span>Technology</span>
-                  </div>
-                  <p className="home_content_style_1">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
-                  <span>
-                    <FaCalendarAlt />
-                    September 15, 2022
-                  </span>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td colSpan={3}>
-                <div
-                  className="feature_cardParent_1"
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyItems: "flex-start",
-                  }}
-                >
+                </td>
+                <td>
                   <div
-                    className="cardParent_vert_long_1_img"
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
                     style={{
-                      backgroundImage:
-                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      width: "180%",
-                      height: "240px",
-                      borderRadius: "10px 0px 0px 10px",
+                      minHeight: "380px",
                     }}
-                  />
-                  <div className="cardParent_vert_long_1_text_parent">
+                  >
                     <div>
-                      <span>Peace</span>
+                      <span>Technology</span>
                     </div>
                     <p className="home_content_style_1">
-                      "Charting a Course for Peace: The African Union's Role in
-                      Conflict Resolution" - Delve into the African Union's
-                      tireless efforts to mediate conflicts, establish
-                      peacekeeping missions, and promote stability in regions
-                      facing adversity.
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
                     </p>
                     <span>
                       <FaCalendarAlt />
-                      September 5, 2022
+                      September 15, 2022
                     </span>
                   </div>
-                </div>
-              </td>
-            </tr>
+                </td>
+                <td>
+                  <div
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
+                    style={{
+                      minHeight: "380px",
+                    }}
+                  >
+                    <div>
+                      <span>Technology</span>
+                    </div>
+                    <p className="home_content_style_1">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                    <span>
+                      <FaCalendarAlt />
+                      September 15, 2022
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colSpan={3}>
+                  <div
+                    className="feature_cardParent_1"
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyItems: "flex-start",
+                    }}
+                  >
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        width: "180%",
+                        height: "240px",
+                        borderRadius: "10px 0px 0px 10px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>Peace</span>
+                      </div>
+                      <p className="home_content_style_1">
+                        "Charting a Course for Peace: The African Union's Role
+                        in Conflict Resolution" - Delve into the African Union's
+                        tireless efforts to mediate conflicts, establish
+                        peacekeeping missions, and promote stability in regions
+                        facing adversity.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 5, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -790,7 +797,7 @@ const HomePage = ({ state }) => {
                     <div className="flagship_project_item_parent">
                       {postArr.map((post, index) => {
                         return (
-                          <Link link={"#flagship-project-" + index}>
+                          <Link link={"#flagship-project-" + index} key={index}>
                             <div
                               className="flagship_project_box"
                               style={{

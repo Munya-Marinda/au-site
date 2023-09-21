@@ -184,42 +184,7 @@ export const fetchMenu = () => {
     },
   };
 };
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 export const stateData = [
   {
     name: "East African Region",
@@ -227,7 +192,7 @@ export const stateData = [
       {
         name: "Kenya",
         flag: "https://th.bing.com/th?id=OSK.d865e1de0ceeb12befbc11afec5741ca&w=188&h=132&c=7&o=6&pid=SANGAM",
-        url: "#readmore/kenya",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
@@ -235,7 +200,7 @@ export const stateData = [
       {
         name: "Ethiopia",
         flag: "https://th.bing.com/th?id=OSK.3b6757f0678edf11ea954a9bc9ca5f26&w=188&h=132&c=7&o=6&pid=SANGAM",
-        url: "#readmore/ethiopia",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Ethiopia's active membership in the African Union (AU) signifies its commitment to regional unity and collective advancement across Africa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -248,7 +213,7 @@ export const stateData = [
       {
         name: "Test",
         flag: "https://th.bing.com/th?id=OSK.d865e1de0ceeb12befbc11afec5741ca&w=188&h=132&c=7&o=6&pid=SANGAM",
-        url: "#readmore/kenya",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
@@ -256,7 +221,7 @@ export const stateData = [
       {
         name: "Test 2",
         flag: "https://th.bing.com/th?id=OSK.3b6757f0678edf11ea954a9bc9ca5f26&w=188&h=132&c=7&o=6&pid=SANGAM",
-        url: "#readmore/ethiopia",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Ethiopia's active membership in the African Union (AU) signifies its commitment to regional unity and collective advancement across Africa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -265,42 +230,6 @@ export const stateData = [
   },
 ];
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 export const knowledgeHeaderData = [
   {
     name: "Aspirations",
@@ -403,7 +332,6 @@ export const knowledgeHeaderData = [
       },
     ],
   },
-  ,
   {
     name: "Dashboard",
     countries: [
@@ -545,7 +473,6 @@ export const knowledgeHeaderData = [
       },
     ],
   },
-  ,
   {
     name: "Progress Update",
     countries: [
@@ -595,42 +522,6 @@ export const knowledgeHeaderData = [
   },
 ];
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 export const NewsAndEventsHeaderData = [
   {
     name: "News",
@@ -919,42 +810,6 @@ export const NewsAndEventsHeaderData = [
   },
 ];
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 export const ResourcesHeaderData = [
   {
     name: "Multimedia",
@@ -1338,42 +1193,6 @@ export const ResourcesHeaderData = [
   },
 ];
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 export const GetInvolvedHeaderData = [
   {
     name: "Lorem Ipsum",
@@ -1757,42 +1576,6 @@ export const GetInvolvedHeaderData = [
   },
 ];
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 export const keyResources = [
   {
     title: "Key",
