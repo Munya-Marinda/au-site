@@ -1,8 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "frontity";
-import { CustomWPRestServicePostObject, formatDate } from "../js/main";
-import { FaGreaterThan, FaSearch } from "react-icons/fa";
+import { formatDate } from "../js/main";
+import {
+  FaAngleLeft,
+  FaAngleRight,
+  FaCalendarAlt,
+  FaGreaterThan,
+  FaPlay,
+  FaSearch,
+} from "react-icons/fa";
 import Link from "@frontity/components/link";
+import { Carousel } from "react-bootstrap";
+import { keyResources } from "../handlers/handleMenu";
 
 const SinglePostView = ({ state }) => {
   const WP_SiteUrl = state.source.url;
@@ -22,13 +31,36 @@ const SinglePostView = ({ state }) => {
   const [postImages, setPostImages] = useState([]);
   const [adPositions, setAdPositions] = useState(false);
   //
+  const [keyResourceIndex, setKeyResourceIndex] = useState(0);
+  //
+  //
+  //
+  //
+  //
+  //
+
+  const CustomPrevButton = ({ onClick }) => {
+    return (
+      <div onClick={onClick} className="header_carousel_button_parent">
+        <FaAngleLeft />
+      </div>
+    );
+  };
+
+  const CustomNextButton = ({ onClick }) => {
+    return (
+      <div onClick={onClick} className="header_carousel_button_parent">
+        <FaAngleRight />
+      </div>
+    );
+  };
+  //
   //
   //
   //
   //
   //
   useEffect(() => {
-    console.log(postExcerpt);
     //
     const fetchCurrentPost = async () => {
       try {
@@ -109,58 +141,442 @@ const SinglePostView = ({ state }) => {
               <span>Press Release</span>
             </div>
             <div className="filter_search_1">
-              <span>Filter Search</span> 
-              <FaSearch />
+              <input
+                type="text"
+                className="filter_search_input"
+                placeholder="Filter Search"
+              />
+              <FaSearch size={15} style={{ cursor: "pointer" }} />
             </div>
           </div>
           <div className="singlepostview_parent_1">
             <img src={postImages[0]} width={"400px"} />
             <div className="singlepostview_article_content_1">
-              <h6>In this article</h6>
               <div className="singlepostview_article_content_list_1">
+                <h6>In this article</h6>
                 <ol>
                   <li>
                     <Link link="$article-section">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </Link>
+                    <br />
                   </li>
                   <li>
                     <Link link="$article-section">
                       Sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
                     </Link>
+                    <br />
                   </li>
                   <li>
                     <Link link="$article-section">
                       Nibh tellus molestie nunc non blandit massa.
                     </Link>
+                    <br />
                   </li>
                   <li>
                     <Link link="$article-section">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </Link>
+                    <br />
                   </li>
                   <li>
                     <Link link="$article-section">
                       Sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
                     </Link>
+                    <br />
                   </li>
                   <li>
                     <Link link="$article-section">
                       Nibh tellus molestie nunc non blandit massa.
                     </Link>
+                    <br />
                   </li>
                 </ol>
               </div>
-              <p
+              <div
                 className="singlepostview_content"
                 dangerouslySetInnerHTML={postContent}
               />
             </div>
           </div>
           <div className="singlepostview_sidebar_1">
-            <h1>MORE CONTENT</h1>
+            <div class="feature_content_header_parent_1">
+              <hr />
+              <h6 className="singlepostview_header_2">Media Contact</h6>
+            </div>
+            <br />
+            <div className="singlepostview_sidebar_container_1">
+              <p>
+                <b>Mr Esther Azaa Tankou</b> | Head of Information Division
+              </p>
+              <p>
+                <b>E-Mail:</b> yamboue@african-union.org
+              </p>
+              <p>
+                <b>Tel:</b> +2519911361185 | Ext 2558
+              </p>
+              <hr />
+              <p>
+                <b>Mr Gamal Ahmed A. Karrar</b> | Senior Communication Officer
+              </p>
+              <p>
+                <b>E-Mail:</b> GamalK@african-union.org
+              </p>
+              <p>
+                <b>Tel:</b> | Ext
+              </p>
+            </div>
+            <br />
+            <div class="feature_content_header_parent_1">
+              <hr />
+              <h6 className="singlepostview_header_2">AU Holidays</h6>
+            </div>
+            <div className="singlepostview_sidebar_container_1">
+              <img
+                src="https://ambassador.daddysdeals.co.za/features/african-union-assets/nelson-mandela-quote-1.png"
+                alt="Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* VIDEO */}
+      <div className="feature_content_parent_1">
+        <div className="feature_content_container_1">
+          <div className="feature_content_header_parent_1">
+            <hr />
+            <h1>Video</h1>
+          </div>
+          <div className="flagship_project_section">
+            <div className="video_section_container_1">
+              <div className="video_section_card_1">
+                <div
+                  class="video_section_preview_1"
+                  style={{
+                    backgroundImage:
+                      'url("https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg")',
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <div className="video_section_preview_overlay_1">
+                    <div
+                      style={{
+                        padding: "30px",
+                        cursor: "pointer",
+                        borderRadius: "100px",
+                        border: "3px solid white",
+                        backgroundColor: " rgba(0, 0, 0, 0.9)",
+                      }}
+                    >
+                      <FaPlay color="white" size={30} />
+                    </div>
+                  </div>
+                </div>
+                <div className="video_section_card_text_1">
+                  <p>
+                    Explore how the African Union is spearheading technological
+                    advancements, from digital infrastructure to tech startups,
+                    driving Africa's digital revolution.
+                  </p>
+                  <span>
+                    <FaCalendarAlt size={15} color="#6f6f6f" /> July 29, 2023
+                  </span>
+                </div>
+              </div>
+              <div className="video_section_scroll_parent_1">
+                {[
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+                  },
+                ].map((video, index) => (
+                  <div
+                    key={index}
+                    style={{
+                      backgroundImage: "url('" + video.image + "')",
+                    }}
+                    className="video_section_scroll_article"
+                  >
+                    {video.text.length > 0 && (
+                      <div className="video_section_scroll_article_overlay">
+                        <span>{video.text}</span>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* PARTNERS */}
+      <div className="feature_content_parent_1">
+        <div className="feature_content_container_1">
+          <div className="feature_content_header_parent_1">
+            <hr />
+            <h1>Partners</h1>
+          </div>
+          <div className="flagship_project_section">
+            <div className="partners_section_container_1">
+              <div
+                style={{
+                  backgroundImage:
+                    "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                }}
+                className="partners_section_logo_1 partners_section_logo_1_border"
+              ></div>
+              <div className="partners_section_logo_1 partners_section_logo_1_border"></div>
+              <div className="partners_section_logo_1 partners_section_logo_1_border"></div>
+              <div className="partners_section_logo_1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Related News & Events */}
+      <div className="feature_content_parent_1">
+        <div className="feature_content_container_1">
+          <div className="feature_content_header_parent_1">
+            <hr />
+            <h1>Related News & Events</h1>
+            <Link link="#see-all">See all related News</Link>
+          </div>
+
+          <table className="feature_table_1">
+            <tbody>
+              <tr>
+                <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
+                  <div className="feature_cardParent_1">
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        height: "240px",
+                        borderRadius: "10px 10px 0px 0px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>Economic</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "Exploring Africa's Path to Economic Resilience: The
+                        African Union's Initiatives To Empower The People of
+                        Africa" - Discover how the African Union is driving
+                        economic resilience and sustainable growth across the
+                        continent, fostering innovation, growth and
+                        entrepreneurship amongst all groups of people.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 2, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td colSpan={3}>
+                  <div
+                    className="feature_cardParent_1"
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyItems: "flex-start",
+                    }}
+                  >
+                    <div
+                      className="cardParent_vert_long_1_img"
+                      style={{
+                        backgroundImage:
+                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        width: "180%",
+                        height: "240px",
+                        borderRadius: "10px 0px 0px 10px",
+                      }}
+                    />
+                    <div className="cardParent_vert_long_1_text_parent">
+                      <div>
+                        <span>Peace</span>
+                      </div>
+                      <p className="home_content_style_2">
+                        "Charting a Course for Peace: The African Union's Role
+                        in Conflict Resolution" - Delve into the African Union's
+                        tireless efforts to mediate conflicts, establish
+                        peacekeeping missions, and promote stability in regions
+                        facing adversity.
+                      </p>
+                      <span>
+                        <FaCalendarAlt />
+                        September 5, 2022
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
+                    style={{
+                      minHeight: "350px",
+                    }}
+                  >
+                    <div>
+                      <span>Gender Equality</span>
+                    </div>
+                    <p className="home_content_style_2">
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
+                    </p>
+                    <span>
+                      <FaCalendarAlt />
+                      September 10, 2022
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
+                    style={{
+                      minHeight: "350px",
+                    }}
+                  >
+                    <div>
+                      <span>Technology</span>
+                    </div>
+                    <p className="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                    <span>
+                      <FaCalendarAlt />
+                      September 15, 2022
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    className="feature_cardParent_1 cardParent_vert_long_1_text_parent"
+                    style={{
+                      minHeight: "350px",
+                    }}
+                  >
+                    <div>
+                      <span>Technology</span>
+                    </div>
+                    <p className="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                    <span>
+                      <FaCalendarAlt />
+                      September 15, 2022
+                    </span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* KEY RESOURCES */}
+      <div className="feature_content_parent_1">
+        <div className="feature_content_container_1">
+          <div className="feature_content_header_parent_1">
+            <hr />
+            <h1>Key Resources</h1>
+            <div className="key_resources_tab_buttons_parent">
+              {keyResources.map((resource, index) => (
+                <span
+                  onClick={() => {
+                    setKeyResourceIndex(index);
+                  }}
+                  className="key_resources_tab_button"
+                  key={index}
+                >
+                  {resource.title}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="key_resources_section">
+            <div className="key_resources_tab flexRow_alnStart_JstApart">
+              {keyResourceIndex !== -1 && (
+                <>
+                  {keyResources[keyResourceIndex].resources.map(
+                    (resource, index) => {
+                      return (
+                        <div
+                          key={index}
+                          style={{ backgroundColor: resource.color }}
+                          className="key_resources_tab_box"
+                        >
+                          <div>
+                            <span>{resource.category}</span>
+                          </div>
+                          <h4>{resource.title}</h4>
+                          <p>{resource.text}</p>
+                        </div>
+                      );
+                    }
+                  )}
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>

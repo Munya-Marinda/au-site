@@ -1,45 +1,16 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "570fb9183ff79287ff0f",
+  "hash": "31c3b44b0087e363659e",
   "publicPath": "",
   "outputPath": "C:\\repos\\african-union\\build\\static",
   "assetsByChunkName": {
-    "african-union": [
-      "african-union.module.js",
-      "african-union.3cc52f5ac6ae182f8bbc.hot-update.js"
-    ]
+    "african-union": "african-union.module.js"
   },
   "assets": [
     {
-      "name": "3cc52f5ac6ae182f8bbc.hot-update.json",
-      "size": 55,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "african-union.3cc52f5ac6ae182f8bbc.hot-update.js",
-      "size": 59618,
-      "chunks": [
-        "african-union"
-      ],
-      "chunkNames": [
-        "african-union"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "african-union.module.js",
-      "size": 40470595,
+      "size": 40536767,
       "chunks": [
         "african-union"
       ],
@@ -57,8 +28,7 @@
         "african-union"
       ],
       "assets": [
-        "african-union.module.js",
-        "african-union.3cc52f5ac6ae182f8bbc.hot-update.js"
+        "african-union.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -69,8 +39,7 @@
     {
       "id": "african-union",
       "files": [
-        "african-union.module.js",
-        "african-union.3cc52f5ac6ae182f8bbc.hot-update.js"
+        "african-union.module.js"
       ]
     }
   ]

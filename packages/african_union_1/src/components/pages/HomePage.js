@@ -113,7 +113,7 @@ const HomePage = ({ state }) => {
           </div>
         </div>
       </div>
-      {/* EVENTS */}
+      {/* NEWS */}
       <div className="feature_content_parent_1">
         <div className="feature_content_container_1">
           <div className="feature_content_header_parent_1">
