@@ -293,36 +293,31 @@ const SinglePostView = ({ state }) => {
                   {
                     image:
                       "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                   },
                   {
                     image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp",
+                    text: "",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg",
+                    text: "",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg",
+                    text: "",
+                  },
+                  {
+                    image:
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/friends-2.webp",
                     text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
                   },
                   {
                     image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
-                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
-                  },
-                  {
-                    image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
-                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
-                  },
-                  {
-                    image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
-                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
-                  },
-                  {
-                    image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
-                    text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
-                  },
-                  {
-                    image:
-                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg",
+                      "https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg",
                     text: "Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
                   },
                 ].map((video, index) => (
@@ -335,7 +330,7 @@ const SinglePostView = ({ state }) => {
                   >
                     {video.text.length > 0 && (
                       <div className="video_section_scroll_article_overlay">
-                        <span>{video.text}</span>
+                        <p>{video.text}</p>
                       </div>
                     )}
                   </div>

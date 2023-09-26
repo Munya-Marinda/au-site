@@ -1017,11 +1017,14 @@ body {
 .video_section_scroll_article_overlay {
   width: 220px;
   height: 80px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.video_section_scroll_article_overlay > span {
-  font-size: 12px;
+.video_section_scroll_article_overlay > p {
+  color: white;
+  font-size: 12px; 
+  line-height: 18px;
 }
 
 /* 
