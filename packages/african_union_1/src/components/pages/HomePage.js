@@ -56,7 +56,7 @@ const HomePage = ({ state }) => {
             <h1 className="homepage_headerImage_header_1">
               Empowering Africa's Future
             </h1>
-            <div className="flexRow_alnStart_JstApart">
+            <div className="homepage_headerImage_textBox_parent">
               <div className="homepage_headerImage_textBox_active">
                 <hr />
                 <p className="home_content_style_1">
@@ -74,7 +74,7 @@ const HomePage = ({ state }) => {
                   development and growth.
                 </p>
               </div>
-              <div className="homepage_headerImage_textBox">
+              <div className="hide homepage_headerImage_textBox">
                 <hr />
                 <p className="home_content_style_1">
                   Economic development is at the heart of our mission. We're
@@ -82,7 +82,7 @@ const HomePage = ({ state }) => {
                   fostering economic growth, and reducing inequalities.
                 </p>
               </div>
-              <div className="homepage_headerImage_textBox">
+              <div className="hide homepage_headerImage_textBox">
                 <hr />
                 <p className="home_content_style_1">
                   Africa is a hub of innovation, and we're here to support and
@@ -91,7 +91,7 @@ const HomePage = ({ state }) => {
                   benefits all.
                 </p>
               </div>
-              <div className="homepage_headerImage_textBox">
+              <div className="hide homepage_headerImage_textBox">
                 <hr />
                 <p className="home_content_style_1">
                   We believe in inclusive development, where no one is left
@@ -100,7 +100,7 @@ const HomePage = ({ state }) => {
                   healthcare, and more.
                 </p>
               </div>
-              <div className="homepage_headerImage_textBox">
+              <div className="hide homepage_headerImage_textBox">
                 <hr />
                 <p className="home_content_style_1">
                   Africa is a continent of diverse cultures and traditions, and
@@ -121,7 +121,7 @@ const HomePage = ({ state }) => {
             <h1>News</h1>
             <Link link="#see-all">See All</Link>
           </div>
-          <table className="feature_table_1">
+          <table className="feature_table_1 hide">
             <tbody>
               <tr>
                 <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
@@ -341,7 +341,7 @@ const HomePage = ({ state }) => {
             <h1>Events</h1>
             <Link link="#see-all">See All</Link>
           </div>
-          <table className="feature_table_1">
+          <table className="feature_table_1 hide">
             <tbody>
               <tr>
                 <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
@@ -848,7 +848,7 @@ const HomePage = ({ state }) => {
             </div>
           </div>
           <div className="key_resources_section">
-            <div className="key_resources_tab flexRow_alnStart_JstApart">
+            <div className="key_resources_tab flexRow_alnStart_JstApart hide">
               {keyResourceIndex !== -1 && (
                 <>
                   {keyResources[keyResourceIndex].resources.map(
@@ -869,6 +869,34 @@ const HomePage = ({ state }) => {
                     }
                   )}
                 </>
+              )}
+            </div>
+            <div className="key_resources_tab flexRow_alnStart_JstApart hide_alt">
+              {keyResourceIndex !== -1 && (
+                <Carousel
+                  indicators={false}
+                  prevIcon={<CustomPrevButton />}
+                  nextIcon={<CustomNextButton />}
+                >
+                  {keyResources[keyResourceIndex].resources.map(
+                    (resource, index) => {
+                      return (
+                        <Carousel.Item key={index}>
+                          <div
+                            style={{ backgroundColor: resource.color }}
+                            className="key_resources_tab_box"
+                          >
+                            <div>
+                              <span>{resource.category}</span>
+                            </div>
+                            <h4>{resource.title}</h4>
+                            <p>{resource.text}</p>
+                          </div>5
+                        </Carousel.Item>
+                      );
+                    }
+                  )}
+                </Carousel>
               )}
             </div>
           </div>

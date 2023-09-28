@@ -473,7 +473,7 @@ const Header = () => {
       {/* LOGO | WEBMAIL | SOCIAL MEDIA ICONS */}
       <div className="header_parent_1 box_shadow_1">
         <div className="header_parent_container_1">
-          <div className="header_contact_parent_1">
+          <div className="header_contact_parent_2">
             <img
               alt="African Union Logo"
               className="header_logo_1"
@@ -530,13 +530,12 @@ const Header = () => {
                 ].map((post, index) => {
                   //
                   //
-                  //
                   return (
                     <Carousel.Item key={index}>
                       <div className="header_feature_carousel_item_1 flexRow_alnCenter_JstCenter">
                         <img
                           alt="Feature Image"
-                          className="header_feature_carousel_image_1"
+                          className="header_feature_carousel_image_1 hide"
                           src={
                             post.imgUrl +
                             "feature-image (" +
@@ -565,7 +564,7 @@ const Header = () => {
       <div className="header_parent_1 primary_background_color secondary_bottomBorder_color">
         <div className="header_parent_container_1">
           <div className="header_nav_parent_1">
-            <div className="header_nav_container_1 flexRow_alnCenter_JstStart">
+            <div className="header_nav_container_1">
               <Link link="#home" className="header_nav_active_1">
                 Home
               </Link>
