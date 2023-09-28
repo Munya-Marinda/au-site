@@ -1327,7 +1327,7 @@ Media queries
   }
   
   .footer_bottom > div > span {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
   }
 }
 /* 
