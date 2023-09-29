@@ -561,7 +561,7 @@ const Header = () => {
         </div>
       </div>
       {/* DESKTOP NAV */}
-      <div className="header_parent_1 primary_background_color secondary_bottomBorder_color">
+      <div className="header_parent_1 primary_background_color secondary_bottomBorder_color hide">
         <div className="header_parent_container_1">
           <div className="header_nav_parent_1">
             <div className="header_nav_container_1">

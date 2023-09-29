@@ -117,6 +117,21 @@ const SinglePostView = ({ state }) => {
   //
   return (
     <main className="homepage_main_parent_1">
+      <div className="filter_posts_parent_1 hide_alt">
+        <div className="filter_posts_categories">
+          <span>Trending</span>
+          <span className="filter_posts_categories_even">Latest</span>
+          <span>Press Release</span>
+        </div>
+        <div className="filter_search_1">
+          <input
+            type="text"
+            className="filter_search_input"
+            placeholder="Filter Search"
+          />
+          <FaSearch size={15} style={{ cursor: "pointer" }} />
+        </div>
+      </div>
       <div className="breadcrum_parent_1">
         <span className="breadcrum_text_1">News & Events</span>
         <span className="breadcrum_divider_1">
@@ -134,7 +149,7 @@ const SinglePostView = ({ state }) => {
       </div>
       <div className="feature_content_parent_1">
         <div className="singlepostview_content_parent_1">
-          <div className="filter_posts_parent_1">
+          <div className="filter_posts_parent_1 hide">
             <div className="filter_posts_categories">
               <span>Trending</span>
               <span className="filter_posts_categories_even">Latest</span>
@@ -150,7 +165,7 @@ const SinglePostView = ({ state }) => {
             </div>
           </div>
           <div className="singlepostview_parent_1">
-            <img src={postImages[0]} width={"400px"} />
+            <img src={postImages[0]} className="singlepostview_feature_img_1" />
             <div className="singlepostview_article_content_1">
               <div className="singlepostview_article_content_list_1">
                 <h6>In this article</h6>
@@ -228,7 +243,6 @@ const SinglePostView = ({ state }) => {
                 <b>Tel:</b> | Ext
               </p>
             </div>
-            <br />
             <div class="feature_content_header_parent_1">
               <hr />
               <h6 className="singlepostview_header_2">AU Holidays</h6>
@@ -374,7 +388,7 @@ const SinglePostView = ({ state }) => {
             <Link link="#see-all">See all related News</Link>
           </div>
 
-          <table className="feature_table_1">
+          <table className="feature_table_1 hide">
             <tbody>
               <tr>
                 <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
@@ -525,6 +539,124 @@ const SinglePostView = ({ state }) => {
               </tr>
             </tbody>
           </table>
+
+          <table className="feature_table_mobile_1 hide_alt">
+            <tbody>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>Economic</span>
+                  </div>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Exploring Africa's Path to Economic Resilience: The
+                      African Union's Initiatives To Empower The People of
+                      Africa"
+                    </p>
+                  </Link>
+                  <span>
+                    <FaCalendarAlt />
+                    September 2, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>Peace</span>
+                  </div>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Charting a Course for Peace: The African Union's Role in
+                      Conflict Resolution"
+                    </p>
+                  </Link>
+                  <span>
+                    <FaCalendarAlt />
+                    September 5, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Gender Equality</span>
+                  </div>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
+                    </p>
+                  </Link>
+                  <span>
+                    <FaCalendarAlt />
+                    September 10, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Technology</span>
+                  </div>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                  </Link>
+                  <span>
+                    <FaCalendarAlt />
+                    September 15, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Technology</span>
+                  </div>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                  </Link>
+                  <span>
+                    <FaCalendarAlt />
+                    September 15, 2022
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -549,7 +681,7 @@ const SinglePostView = ({ state }) => {
             </div>
           </div>
           <div className="key_resources_section">
-            <div className="key_resources_tab flexRow_alnStart_JstApart">
+            <div className="key_resources_tab flexRow_alnStart_JstApart hide">
               {keyResourceIndex !== -1 && (
                 <>
                   {keyResources[keyResourceIndex].resources.map(
@@ -570,6 +702,35 @@ const SinglePostView = ({ state }) => {
                     }
                   )}
                 </>
+              )}
+            </div>
+
+            <div className="key_resources_tab flexRow_alnStart_JstApart hide_alt">
+              {keyResourceIndex !== -1 && (
+                <Carousel
+                  indicators={false}
+                  prevIcon={<CustomPrevButton />}
+                  nextIcon={<CustomNextButton />}
+                >
+                  {keyResources[keyResourceIndex].resources.map(
+                    (resource, index) => {
+                      return (
+                        <Carousel.Item key={index}>
+                          <div
+                            style={{ backgroundColor: resource.color }}
+                            className="key_resources_tab_box"
+                          >
+                            <div>
+                              <span>{resource.category}</span>
+                            </div>
+                            <h4>{resource.title}</h4>
+                            <p>{resource.text}</p>
+                          </div>
+                        </Carousel.Item>
+                      );
+                    }
+                  )}
+                </Carousel>
               )}
             </div>
           </div>

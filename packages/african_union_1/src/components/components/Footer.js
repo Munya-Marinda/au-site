@@ -35,19 +35,35 @@ const Footer = ({ menu, _toggledleSubmitYourContentModal }) => {
           <div>
             <h5 className="footer_header_2">Opportunities</h5>
             <ul className="footer_links_ul">
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
             </ul>
           </div>
           <div>
             <h5 className="footer_header_2">Quick Links</h5>
             <ul className="footer_links_ul">
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <Link link="#">Lorem Ipsum</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -60,10 +76,20 @@ const Footer = ({ menu, _toggledleSubmitYourContentModal }) => {
           />
 
           <div>
-            <span>Contact Us</span>
-            <span>Cookie Policy</span>
-            <span>Privacy Notice</span>
-            <span>Site Terms</span>
+            <span>
+              <Link link="#contact-us">Contact Us</Link>
+            </span>
+            <span>
+              <Link link="#cookie-policy">Cookie Policy</Link>
+            </span>
+          </div>
+          <div>
+            <span>
+              <Link link="#privacy-notice">Privacy Notice</Link>
+            </span>
+            <span>
+              <Link link="#site-terms">Site Terms</Link>
+            </span>
           </div>
 
           <div>

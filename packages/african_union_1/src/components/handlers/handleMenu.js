@@ -236,49 +236,49 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Aspirations 1",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Aspirations 2",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Aspirations 3",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Aspirations 4",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Aspirations 5",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Aspirations 6",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Aspirations 7",
-        url: "#readmore/aspirations",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -290,42 +290,42 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Project 1",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Project 2",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Project 3",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Project 4",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Project 5",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Project 6",
-        url: "#readmore/flagship-rojects",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -337,42 +337,42 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Menu Item 1",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Menu Item 2",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Menu Item 3",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Menu Item 4",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Menu Item 5",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Menu Item 6",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -384,42 +384,42 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Multimedia 1",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Multimedia 2",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Multimedia 3",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Multimedia 4",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Multimedia 5",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Multimedia 6",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -431,42 +431,42 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Publication 1",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Publication 2",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Publication 3",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Publication 4",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Publication 5",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Publication 6",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -478,42 +478,42 @@ export const knowledgeHeaderData = [
     countries: [
       {
         name: "Update 1",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Update 2",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Update 3",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Update 4",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
       },
       {
         name: "Update 5",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Kenya's active participation in the African Union (AU) underscores its commitment to regional cooperation and the pursuit of common goals across the African continent",
         imgUrl:
           "https://th.bing.com/th/id/R.3c8504a08441b570ea642a591ca8dfbe?rik=zw8nGbmc8woGJQ&pid=ImgRaw&r=0",
       },
       {
         name: "Update 6",
-        url: "#readmore/menu-item",
+        url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
         imgUrl:
           "https://th.bing.com/th/id/OIP.zyc5G1Zuai6sitWpQsYTXAHaE7?pid=ImgDet&rs=1",
@@ -531,27 +531,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -561,27 +561,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -591,27 +591,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -626,27 +626,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -656,27 +656,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -686,27 +686,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -721,27 +721,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -751,27 +751,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -781,27 +781,27 @@ export const NewsAndEventsHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -819,27 +819,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -849,27 +849,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -879,27 +879,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -914,27 +914,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -944,27 +944,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -974,27 +974,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1009,27 +1009,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1039,27 +1039,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1069,27 +1069,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1104,27 +1104,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1134,27 +1134,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1164,27 +1164,27 @@ export const ResourcesHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1202,27 +1202,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1232,27 +1232,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1262,122 +1262,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Lorem Ipsum",
-    content: [
-      {
-        name: "Lorem Ipsum",
-        news: [
-          {
-            header: "Title 1",
-            url: "#readmore-title-1",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 2",
-            url: "#readmore-title-2",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 3",
-            url: "#readmore-title-3",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 4",
-            url: "#readmore-title-4",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 5",
-            url: "#readmore-title-5",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-        ],
-      },
-      {
-        name: "Lorem Ipsum",
-        news: [
-          {
-            header: "Title 1",
-            url: "#readmore-title-1",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 2",
-            url: "#readmore-title-2",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 3",
-            url: "#readmore-title-3",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 4",
-            url: "#readmore-title-4",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 5",
-            url: "#readmore-title-5",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-        ],
-      },
-      {
-        name: "Lorem Ipsum",
-        news: [
-          {
-            header: "Title 1",
-            url: "#readmore-title-1",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 2",
-            url: "#readmore-title-2",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 3",
-            url: "#readmore-title-3",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 4",
-            url: "#readmore-title-4",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
-          },
-          {
-            header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1392,27 +1297,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1422,27 +1327,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1452,27 +1357,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1487,27 +1392,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1517,27 +1422,27 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],
@@ -1547,27 +1452,122 @@ export const GetInvolvedHeaderData = [
         news: [
           {
             header: "Title 1",
-            url: "#readmore-title-1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 2",
-            url: "#readmore-title-2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 3",
-            url: "#readmore-title-3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 4",
-            url: "#readmore-title-4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
           {
             header: "Title 5",
-            url: "#readmore-title-5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Lorem Ipsum",
+    content: [
+      {
+        name: "Lorem Ipsum",
+        news: [
+          {
+            header: "Title 1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+        ],
+      },
+      {
+        name: "Lorem Ipsum",
+        news: [
+          {
+            header: "Title 1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+        ],
+      },
+      {
+        name: "Lorem Ipsum",
+        news: [
+          {
+            header: "Title 1",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 2",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 3",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 4",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
+          },
+          {
+            header: "Title 5",
+            url: "/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa.",
           },
         ],

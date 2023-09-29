@@ -126,30 +126,34 @@ const HomePage = ({ state }) => {
               <tr>
                 <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
                   <div className="feature_cardParent_1">
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        height: "240px",
-                        borderRadius: "10px 10px 0px 0px",
-                      }}
-                    />
+                    <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          height: "240px",
+                          borderRadius: "10px 10px 0px 0px",
+                        }}
+                      />
+                    </Link>
                     <div className="cardParent_vert_long_1_text_parent">
                       <div>
                         <span>Economic</span>
                       </div>
-                      <p className="home_content_style_2">
-                        "Exploring Africa's Path to Economic Resilience: The
-                        African Union's Initiatives To Empower The People of
-                        Africa" - Discover how the African Union is driving
-                        economic resilience and sustainable growth across the
-                        continent, fostering innovation, growth and
-                        entrepreneurship amongst all groups of people.
-                      </p>
+                      <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                        <p className="home_content_style_2">
+                          "Exploring Africa's Path to Economic Resilience: The
+                          African Union's Initiatives To Empower The People of
+                          Africa" - Discover how the African Union is driving
+                          economic resilience and sustainable growth across the
+                          continent, fostering innovation, growth and
+                          entrepreneurship amongst all groups of people.
+                        </p>
+                      </Link>
                       <span>
                         <FaCalendarAlt />
                         September 2, 2022
@@ -167,30 +171,37 @@ const HomePage = ({ state }) => {
                       justifyItems: "flex-start",
                     }}
                   >
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        width: "180%",
-                        height: "240px",
-                        borderRadius: "10px 0px 0px 10px",
-                      }}
-                    />
+                    <Link
+                      link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/"
+                      style={{ width: "180%" }}
+                    >
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          width: "100%",
+                          height: "240px",
+                          borderRadius: "10px 0px 0px 10px",
+                        }}
+                      />
+                    </Link>
                     <div className="cardParent_vert_long_1_text_parent">
                       <div>
                         <span>Peace</span>
                       </div>
-                      <p className="home_content_style_2">
-                        "Charting a Course for Peace: The African Union's Role
-                        in Conflict Resolution" - Delve into the African Union's
-                        tireless efforts to mediate conflicts, establish
-                        peacekeeping missions, and promote stability in regions
-                        facing adversity.
-                      </p>
+                      <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                        <p className="home_content_style_2">
+                          "Charting a Course for Peace: The African Union's Role
+                          in Conflict Resolution" - Delve into the African
+                          Union's tireless efforts to mediate conflicts,
+                          establish peacekeeping missions, and promote stability
+                          in regions facing adversity.
+                        </p>
+                      </Link>
                       <span>
                         <FaCalendarAlt />
                         September 5, 2022
@@ -210,13 +221,15 @@ const HomePage = ({ state }) => {
                     <div>
                       <span>Gender Equality</span>
                     </div>
-                    <p className="home_content_style_2">
-                      "Empowering Women in Africa: The African Union's Gender
-                      Equality Agenda" - Learn about the African Union's
-                      commitment to gender equality, empowering women and girls
-                      through policies and initiatives that drive positive
-                      change.
-                    </p>
+                    <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                      <p className="home_content_style_2">
+                        "Empowering Women in Africa: The African Union's Gender
+                        Equality Agenda" - Learn about the African Union's
+                        commitment to gender equality, empowering women and
+                        girls through policies and initiatives that drive
+                        positive change.
+                      </p>
+                    </Link>
                     <span>
                       <FaCalendarAlt />
                       September 10, 2022
@@ -233,13 +246,15 @@ const HomePage = ({ state }) => {
                     <div>
                       <span>Technology</span>
                     </div>
-                    <p className="home_content_style_2">
-                      "Innovations Transforming Africa: Spotlight on the African
-                      Union's Tech Initiatives" - Explore how the African Union
-                      is spearheading technological advancements, from digital
-                      infrastructure to tech startups, driving Africa's digital
-                      revolution.
-                    </p>
+                    <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                      <p className="home_content_style_2">
+                        "Innovations Transforming Africa: Spotlight on the
+                        African Union's Tech Initiatives" - Explore how the
+                        African Union is spearheading technological
+                        advancements, from digital infrastructure to tech
+                        startups, driving Africa's digital revolution.
+                      </p>
+                    </Link>
                     <span>
                       <FaCalendarAlt />
                       September 15, 2022
@@ -248,19 +263,21 @@ const HomePage = ({ state }) => {
                 </td>
                 <td rowSpan={2}>
                   <div className="feature_cardParent_1">
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        width: "100%",
-                        height: "240px",
-                        borderRadius: "10px 10px 0px 0px",
-                      }}
-                    />
+                    <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          width: "100%",
+                          height: "240px",
+                          borderRadius: "10px 10px 0px 0px",
+                        }}
+                      />
+                    </Link>
                     <div
                       className="cardParent_vert_long_1_text_parent"
                       style={{
@@ -270,14 +287,16 @@ const HomePage = ({ state }) => {
                       <div>
                         <span>Agenda-2063</span>
                       </div>
-                      <p className="home_content_style_2">
-                        "African Union's Agenda 2063: Shaping the Future of the
-                        Continent" - Dive into Agenda 2063, the African Union's
-                        comprehensive plan for transforming Africa into a
-                        thriving, integrated, and self-reliant continent by
-                        2063. Learn how it's reshaping the future of the
-                        continent.
-                      </p>
+                      <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                        <p className="home_content_style_2">
+                          "African Union's Agenda 2063: Shaping the Future of
+                          the Continent" - Dive into Agenda 2063, the African
+                          Union's comprehensive plan for transforming Africa
+                          into a thriving, integrated, and self-reliant
+                          continent by 2063. Learn how it's reshaping the future
+                          of the continent.
+                        </p>
+                      </Link>
                       <span>
                         <FaCalendarAlt />
                         October 2, 2022
@@ -297,30 +316,37 @@ const HomePage = ({ state }) => {
                     }}
                     className="feature_cardParent_1"
                   >
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        width: "180%",
-                        height: "240px",
-                        borderRadius: "10px 0px 0px 10px",
-                      }}
-                    />
+                    <Link
+                      link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/"
+                      style={{ width: "180%" }}
+                    >
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          width: "100%",
+                          height: "240px",
+                          borderRadius: "10px 0px 0px 10px",
+                        }}
+                      />
+                    </Link>
                     <div className="cardParent_vert_long_1_text_parent">
                       <div>
                         <span>News</span>
                       </div>
-                      <p className="home_content_style_2">
-                        "African Union's Vision 2063: Shaping Africa's Future" -
-                        Dive into the ambitious Agenda 2063, the African Union's
-                        strategic framework for transforming Africa into a
-                        united, prosperous, and self-reliant continent. Explore
-                        its key goals and the path to achieving them.
-                      </p>
+                      <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                        <p className="home_content_style_2">
+                          "African Union's Vision 2063: Shaping Africa's Future"
+                          - Dive into the ambitious Agenda 2063, the African
+                          Union's strategic framework for transforming Africa
+                          into a united, prosperous, and self-reliant continent.
+                          Explore its key goals and the path to achieving them.
+                        </p>
+                      </Link>
                       <span>
                         <FaCalendarAlt />
                         September 25, 2022
@@ -348,10 +374,13 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Economic</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Exploring Africa's Path to Economic Resilience: The African
-                    Union's Initiatives To Empower The People of Africa"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Exploring Africa's Path to Economic Resilience: The
+                      African Union's Initiatives To Empower The People of
+                      Africa"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 2, 2022
@@ -372,10 +401,12 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Peace</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Charting a Course for Peace: The African Union's Role in
-                    Conflict Resolution"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Charting a Course for Peace: The African Union's Role in
+                      Conflict Resolution"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 5, 2022
@@ -387,12 +418,15 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Gender Equality</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Empowering Women in Africa: The African Union's Gender
-                    Equality Agenda" - Learn about the African Union's
-                    commitment to gender equality, empowering women and girls
-                    through policies and initiatives that drive positive change.
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 10, 2022
@@ -404,13 +438,15 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 15, 2022
@@ -431,9 +467,11 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>News</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "African Union's Vision 2063: Shaping Africa's Future"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "African Union's Vision 2063: Shaping Africa's Future"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 25, 2022
@@ -454,10 +492,12 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>News</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "African Union's Agenda 2063: Shaping the Future of the
-                    Continent"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "African Union's Agenda 2063: Shaping the Future of the
+                      Continent"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     October 2, 2022
@@ -481,18 +521,20 @@ const HomePage = ({ state }) => {
               <tr>
                 <td rowSpan={2} colSpan={3} style={{ width: "25%" }}>
                   <div className="feature_cardParent_1">
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        height: "240px",
-                        borderRadius: "10px 10px 0px 0px",
-                      }}
-                    />
+                    <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          height: "240px",
+                          borderRadius: "10px 10px 0px 0px",
+                        }}
+                      />
+                    </Link>
                     <div
                       className="cardParent_vert_long_1_text_parent"
                       style={{ minHeight: "400px" }}
@@ -597,19 +639,24 @@ const HomePage = ({ state }) => {
                       justifyItems: "flex-start",
                     }}
                   >
-                    <div
-                      className="cardParent_vert_long_1_img"
-                      style={{
-                        backgroundImage:
-                          "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        width: "180%",
-                        height: "240px",
-                        borderRadius: "10px 0px 0px 10px",
-                      }}
-                    />
+                    <Link
+                      link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/"
+                      style={{ width: "180%" }}
+                    >
+                      <div
+                        className="cardParent_vert_long_1_img"
+                        style={{
+                          backgroundImage:
+                            "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          width: "100%",
+                          height: "240px",
+                          borderRadius: "10px 0px 0px 10px",
+                        }}
+                      />
+                    </Link>
                     <div className="cardParent_vert_long_1_text_parent">
                       <div>
                         <span>Peace</span>
@@ -648,10 +695,13 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Economic</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Exploring Africa's Path to Economic Resilience: The African
-                    Union's Initiatives To Empower The People of Africa"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Exploring Africa's Path to Economic Resilience: The
+                      African Union's Initiatives To Empower The People of
+                      Africa"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 2, 2022
@@ -663,12 +713,15 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Gender Equality</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Empowering Women in Africa: The African Union's Gender
-                    Equality Agenda" - Learn about the African Union's
-                    commitment to gender equality, empowering women and girls
-                    through policies and initiatives that drive positive change.
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Empowering Women in Africa: The African Union's Gender
+                      Equality Agenda" - Learn about the African Union's
+                      commitment to gender equality, empowering women and girls
+                      through policies and initiatives that drive positive
+                      change.
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 10, 2022
@@ -680,13 +733,15 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 15, 2022
@@ -698,13 +753,15 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Innovations Transforming Africa: Spotlight on the African
-                    Union's Tech Initiatives" - Explore how the African Union is
-                    spearheading technological advancements, from digital
-                    infrastructure to tech startups, driving Africa's digital
-                    revolution.
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Innovations Transforming Africa: Spotlight on the African
+                      Union's Tech Initiatives" - Explore how the African Union
+                      is spearheading technological advancements, from digital
+                      infrastructure to tech startups, driving Africa's digital
+                      revolution.
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 15, 2022
@@ -725,10 +782,12 @@ const HomePage = ({ state }) => {
                   <div className="mobile_category_1">
                     <span>PEACE</span>
                   </div>
-                  <p class="home_content_style_2">
-                    "Charting a Course for Peace: The African Union's Role in
-                    Conflict Resolution"
-                  </p>
+                  <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+                    <p class="home_content_style_2">
+                      "Charting a Course for Peace: The African Union's Role in
+                      Conflict Resolution"
+                    </p>
+                  </Link>
                   <span>
                     <FaCalendarAlt />
                     September 25, 2022
