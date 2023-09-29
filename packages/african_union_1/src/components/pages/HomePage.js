@@ -361,21 +361,21 @@ const HomePage = ({ state }) => {
           <table className="feature_table_mobile_1 hide_alt">
             <tbody>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>Economic</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Exploring Africa's Path to Economic Resilience: The
                       African Union's Initiatives To Empower The People of
                       Africa"
@@ -388,21 +388,21 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>Peace</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Charting a Course for Peace: The African Union's Role in
                       Conflict Resolution"
                     </p>
@@ -414,12 +414,12 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_3" colSpan={2}>
+                <td className="cardParent_tr_3" colSpan={2}>
                   <div className="mobile_category_1">
                     <span>Gender Equality</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Empowering Women in Africa: The African Union's Gender
                       Equality Agenda" - Learn about the African Union's
                       commitment to gender equality, empowering women and girls
@@ -434,12 +434,12 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_3" colSpan={2}>
+                <td className="cardParent_tr_3" colSpan={2}>
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Innovations Transforming Africa: Spotlight on the African
                       Union's Tech Initiatives" - Explore how the African Union
                       is spearheading technological advancements, from digital
@@ -454,21 +454,21 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>News</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "African Union's Vision 2063: Shaping Africa's Future"
                     </p>
                   </Link>
@@ -479,21 +479,21 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>News</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "African Union's Agenda 2063: Shaping the Future of the
                       Continent"
                     </p>
@@ -682,21 +682,21 @@ const HomePage = ({ state }) => {
           <table className="feature_table_mobile_1 hide_alt">
             <tbody>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>Economic</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Exploring Africa's Path to Economic Resilience: The
                       African Union's Initiatives To Empower The People of
                       Africa"
@@ -709,12 +709,12 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_3" colSpan={2}>
+                <td className="cardParent_tr_3" colSpan={2}>
                   <div className="mobile_category_1">
                     <span>Gender Equality</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Empowering Women in Africa: The African Union's Gender
                       Equality Agenda" - Learn about the African Union's
                       commitment to gender equality, empowering women and girls
@@ -729,12 +729,12 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_3" colSpan={2}>
+                <td className="cardParent_tr_3" colSpan={2}>
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Innovations Transforming Africa: Spotlight on the African
                       Union's Tech Initiatives" - Explore how the African Union
                       is spearheading technological advancements, from digital
@@ -749,12 +749,12 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_3" colSpan={2}>
+                <td className="cardParent_tr_3" colSpan={2}>
                   <div className="mobile_category_1">
                     <span>Technology</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Innovations Transforming Africa: Spotlight on the African
                       Union's Tech Initiatives" - Explore how the African Union
                       is spearheading technological advancements, from digital
@@ -769,21 +769,21 @@ const HomePage = ({ state }) => {
                 </td>
               </tr>
               <tr>
-                <td class="cardParent_tr_1">
+                <td className="cardParent_tr_1">
                   <div
-                    class="cardParent_mobile_1_img"
+                    className="cardParent_mobile_1_img"
                     style={{
                       backgroundImage:
                         "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
                     }}
                   />
                 </td>
-                <td class="cardParent_tr_2">
+                <td className="cardParent_tr_2">
                   <div className="mobile_category_1">
                     <span>PEACE</span>
                   </div>
                   <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
-                    <p class="home_content_style_2">
+                    <p className="home_content_style_2">
                       "Charting a Course for Peace: The African Union's Role in
                       Conflict Resolution"
                     </p>

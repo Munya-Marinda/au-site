@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState } from "react";
 import Link from "@frontity/components/link";
+import MobileMenu from "./MobileMenu";
 import { Carousel } from "react-bootstrap";
 import { connect } from "frontity";
 import SocialMediaIcons from "./SocialMediaIcons";
@@ -605,6 +605,8 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {/* MOBILE NAV */}
+      <MobileMenu />
     </>
   );
 };
