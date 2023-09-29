@@ -329,7 +329,142 @@ const HomePage = ({ state }) => {
                   </div>
                 </td>
               </tr>
-            </tbody>{" "}
+            </tbody>
+          </table>
+          {/* NEWS MOBILE */}
+          <table className="feature_table_mobile_1 hide_alt">
+            <tbody>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/community-1.webp')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>Economic</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Exploring Africa's Path to Economic Resilience: The African
+                    Union's Initiatives To Empower The People of Africa"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 2, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/flags-1.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>Peace</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Charting a Course for Peace: The African Union's Role in
+                    Conflict Resolution"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 5, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Gender Equality</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Empowering Women in Africa: The African Union's Gender
+                    Equality Agenda" - Learn about the African Union's
+                    commitment to gender equality, empowering women and girls
+                    through policies and initiatives that drive positive change.
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 10, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Technology</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Innovations Transforming Africa: Spotlight on the African
+                    Union's Tech Initiatives" - Explore how the African Union is
+                    spearheading technological advancements, from digital
+                    infrastructure to tech startups, driving Africa's digital
+                    revolution.
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 15, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/black-woman-1.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>News</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "African Union's Vision 2063: Shaping Africa's Future"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 25, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/passport-1.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>News</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "African Union's Agenda 2063: Shaping the Future of the
+                    Continent"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    October 2, 2022
+                  </span>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -496,6 +631,112 @@ const HomePage = ({ state }) => {
               </tr>
             </tbody>
           </table>
+          {/* NEWS MOBILE */}
+          <table className="feature_table_mobile_1 hide_alt">
+            <tbody>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/conference.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>Economic</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Exploring Africa's Path to Economic Resilience: The African
+                    Union's Initiatives To Empower The People of Africa"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 2, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Gender Equality</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Empowering Women in Africa: The African Union's Gender
+                    Equality Agenda" - Learn about the African Union's
+                    commitment to gender equality, empowering women and girls
+                    through policies and initiatives that drive positive change.
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 10, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Technology</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Innovations Transforming Africa: Spotlight on the African
+                    Union's Tech Initiatives" - Explore how the African Union is
+                    spearheading technological advancements, from digital
+                    infrastructure to tech startups, driving Africa's digital
+                    revolution.
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 15, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_3" colSpan={2}>
+                  <div className="mobile_category_1">
+                    <span>Technology</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Innovations Transforming Africa: Spotlight on the African
+                    Union's Tech Initiatives" - Explore how the African Union is
+                    spearheading technological advancements, from digital
+                    infrastructure to tech startups, driving Africa's digital
+                    revolution.
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 15, 2022
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="cardParent_tr_1">
+                  <div
+                    class="cardParent_mobile_1_img"
+                    style={{
+                      backgroundImage:
+                        "url('https://ambassador.daddysdeals.co.za/features/african-union-assets/senior-woman-1.jpg')",
+                    }}
+                  />
+                </td>
+                <td class="cardParent_tr_2">
+                  <div className="mobile_category_1">
+                    <span>PEACE</span>
+                  </div>
+                  <p class="home_content_style_2">
+                    "Charting a Course for Peace: The African Union's Role in
+                    Conflict Resolution"
+                  </p>
+                  <span>
+                    <FaCalendarAlt />
+                    September 25, 2022
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       {/* ASPIRATIONS */}
@@ -610,7 +851,7 @@ const HomePage = ({ state }) => {
             </div>
             <div className="aspirations_parentBlock_1 aspirations_bgcolor_5">
               <span className="aspirations_header_2">
-                Aspiration{" "}
+                Aspiration
                 <span className="aspirations_bgcolor_5_2 aspirations_color_5">
                   5
                 </span>
@@ -891,7 +1132,7 @@ const HomePage = ({ state }) => {
                             </div>
                             <h4>{resource.title}</h4>
                             <p>{resource.text}</p>
-                          </div>5
+                          </div>
                         </Carousel.Item>
                       );
                     }
