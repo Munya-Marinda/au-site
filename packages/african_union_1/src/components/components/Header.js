@@ -474,11 +474,13 @@ const Header = () => {
       <div className="header_parent_1 box_shadow_1">
         <div className="header_parent_container_1">
           <div className="header_contact_parent_2">
-            <img
-              alt="African Union Logo"
-              className="header_logo_1"
-              src="https://ambassador.daddysdeals.co.za/features/african-union-assets/auweblogo-en.png"
-            />
+            <Link link="/">
+              <img
+                alt="African Union Logo"
+                className="header_logo_1"
+                src="https://ambassador.daddysdeals.co.za/features/african-union-assets/auweblogo-en.png"
+              />
+            </Link>
             <div className="header_icons_webmail_parent_1">
               <span className="header_webmail_text_1">WEBMAIL</span>
               <div className="header_divider_1"></div>
@@ -491,11 +493,13 @@ const Header = () => {
       <div className="header_parent_1 ">
         <div className="header_parent_container_1">
           <div className="header_contact_parent_1">
-            <img
-              alt="Agenda 2026 Logo"
-              className="header_agenda2026_logo_1"
-              src="https://ambassador.daddysdeals.co.za/features/african-union-assets/agenda_2063_logo_eng-02.png"
-            />
+            <Link link="/">
+              <img
+                alt="Agenda 2026 Logo"
+                className="header_agenda2026_logo_1"
+                src="https://ambassador.daddysdeals.co.za/features/african-union-assets/agenda_2063_logo_eng-02.png"
+              />
+            </Link>
             <div className="header_feature_carousel_parent_1">
               <Carousel
                 indicators={false}
