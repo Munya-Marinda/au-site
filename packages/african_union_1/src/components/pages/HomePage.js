@@ -53,63 +53,65 @@ const HomePage = ({ state }) => {
       <div className="homepage_headerImage_parent_1">
         <div className="homepage_headerImage_parent_1_overlay">
           <div className="homepage_headerImage_container_1">
-            <h1 className="homepage_headerImage_header_1">
-              Empowering Africa's Future
-            </h1>
-            <div className="homepage_headerImage_textBox_parent">
-              <div className="homepage_headerImage_textBox_active">
-                <hr />
-                <p className="home_content_style_1">
-                  At the African Union, our vision is clear - a united and
-                  thriving Africa. We believe in the immense potential of our
-                  continent and are dedicated to harnessing it for the
-                  betterment of all Africans.
-                </p>
+            <Link link="/mandela-day/lessons-you-can-learn-from-madiba-this-mandela-day/">
+              <h1 className="homepage_headerImage_header_1">
+                Empowering Africa's Future
+              </h1>
+              <div className="homepage_headerImage_textBox_parent">
+                <div className="homepage_headerImage_textBox_active">
+                  <hr />
+                  <p className="home_content_style_1">
+                    At the African Union, our vision is clear - a united and
+                    thriving Africa. We believe in the immense potential of our
+                    continent and are dedicated to harnessing it for the
+                    betterment of all Africans.
+                  </p>
+                </div>
+                <div className="homepage_headerImage_textBox">
+                  <hr />
+                  <p className="home_content_style_1">
+                    We work tirelessly to promote peace and stability across
+                    Africa, resolving conflicts and creating the conditions for
+                    development and growth.
+                  </p>
+                </div>
+                <div className="hide homepage_headerImage_textBox">
+                  <hr />
+                  <p className="home_content_style_1">
+                    Economic development is at the heart of our mission. We're
+                    committed to creating opportunities for all Africans,
+                    fostering economic growth, and reducing inequalities.
+                  </p>
+                </div>
+                <div className="hide homepage_headerImage_textBox">
+                  <hr />
+                  <p className="home_content_style_1">
+                    Africa is a hub of innovation, and we're here to support and
+                    harness that creativity. From technological advancements to
+                    scientific breakthroughs, we're driving innovation that
+                    benefits all.
+                  </p>
+                </div>
+                <div className="hide homepage_headerImage_textBox">
+                  <hr />
+                  <p className="home_content_style_1">
+                    We believe in inclusive development, where no one is left
+                    behind. Our programs and initiatives prioritize the most
+                    vulnerable, ensuring they have access to education,
+                    healthcare, and more.
+                  </p>
+                </div>
+                <div className="hide homepage_headerImage_textBox">
+                  <hr />
+                  <p className="home_content_style_1">
+                    Africa is a continent of diverse cultures and traditions,
+                    and we celebrate this diversity. Through unity, we're
+                    embracing our differences, strengthening our collective
+                    voice, and building a brighter future for all Africans.
+                  </p>
+                </div>
               </div>
-              <div className="homepage_headerImage_textBox">
-                <hr />
-                <p className="home_content_style_1">
-                  We work tirelessly to promote peace and stability across
-                  Africa, resolving conflicts and creating the conditions for
-                  development and growth.
-                </p>
-              </div>
-              <div className="hide homepage_headerImage_textBox">
-                <hr />
-                <p className="home_content_style_1">
-                  Economic development is at the heart of our mission. We're
-                  committed to creating opportunities for all Africans,
-                  fostering economic growth, and reducing inequalities.
-                </p>
-              </div>
-              <div className="hide homepage_headerImage_textBox">
-                <hr />
-                <p className="home_content_style_1">
-                  Africa is a hub of innovation, and we're here to support and
-                  harness that creativity. From technological advancements to
-                  scientific breakthroughs, we're driving innovation that
-                  benefits all.
-                </p>
-              </div>
-              <div className="hide homepage_headerImage_textBox">
-                <hr />
-                <p className="home_content_style_1">
-                  We believe in inclusive development, where no one is left
-                  behind. Our programs and initiatives prioritize the most
-                  vulnerable, ensuring they have access to education,
-                  healthcare, and more.
-                </p>
-              </div>
-              <div className="hide homepage_headerImage_textBox">
-                <hr />
-                <p className="home_content_style_1">
-                  Africa is a continent of diverse cultures and traditions, and
-                  we celebrate this diversity. Through unity, we're embracing
-                  our differences, strengthening our collective voice, and
-                  building a brighter future for all Africans.
-                </p>
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

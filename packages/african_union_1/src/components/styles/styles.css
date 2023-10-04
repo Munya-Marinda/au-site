@@ -1363,6 +1363,10 @@ Media queries
 */
 
 @media only screen and (max-width: 900px) {
+  .homepage_headerImage_header_1 {
+    width: 100%;
+  }
+
   .header_contact_parent_1 {
     flex-direction: column;
   }
